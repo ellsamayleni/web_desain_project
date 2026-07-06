@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pesonal Website</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="header">
+            <p>
+                <img src="image/new header.png" width="920" height="200"/>
+            </p>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="popupolahnilai.html">Nilai</a></li>
+                <li><a href="kutipan.html">Kutipan</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="jarak">
+                <div class="border">
+                    <div class="jarak">
+                        <script>
+                            var username = prompt("Username:");
+                            var password = prompt("password:");
+
+                            if(username == "ellsaastr"){
+                            if (password == "25101152630245"){
+                            document.write("<h2>Selamat Datang Gadis Manis!</h2>");
+                            } else{
+                            document.write("<p>Password keliru, silahkan coba lagi, semangatt!!</p>");
+                            }
+                            } else{
+                            document.write("<p>Maaf cantik, kamu tidak terdaftar!</p>");
+                            }
+                        </script>
+                        <script>
+                            var nilai = prompt("Inputkan nilai akhir:");
+                            var grade = "";
+
+                            if (nilai>=80){
+                                grade = "A"
+                            } else if (nilai >= 65) {
+                                grade = "B"
+                            } else if (nilai >= 55) {
+                                grade = "c"
+                            } else if (nilai >= 35) {
+                                grade = "D"
+                            } else if (nilai >= 0) {
+                                grade = "E"
+                            } else {
+                                 grade = "nilai yang kamu masukkan salah!";
+                            }
+                            document.write(`<p>Garde kamu: ${grade}</p>`);
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="jarak">
+                <p>Copyright 2026 | ellsasrty</p>
+            </div>
+        </div>
+    </body>
+</html>

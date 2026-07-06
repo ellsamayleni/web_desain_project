@@ -1,0 +1,118 @@
+body{
+    background:#fff;
+    color:#333;
+    width:100%;
+    font-family:Times New Roman;
+    margin:0 auto;
+}
+
+.header{
+    width:90%;
+    margin:auto;
+    height:200px;
+    line-height:120px;
+    background:blue;
+    color:#000000;
+}
+
+.menu{
+    background-color:blue;
+    height:40px;
+    line-height:50px;
+    position:relative;
+    width:90%;
+    margin:0 auto;
+    padding:0 auto;
+}
+
+.jarak{
+    padding:0 2pc;
+}
+
+.menu ul {
+    list-style:none;
+}
+
+.menu ul li a {
+    float:left;
+    width:90px;
+    display:block;
+    text-align:center;
+    color:#FFF;
+    text-decoration:none;
+}
+
+.menu ul li a:hover {
+    background-color:#000000;
+    display:block;
+}
+
+.content{
+    width:90%;
+    margin:auto;
+    min-height:600px;
+    padding:40px;
+    background:#fff;
+    color:#333;
+}
+
+.border{
+    border:2px solid blue;
+    margin-top:1pc;
+    padding-bottom:1pc;
+    padding-left:2pc;
+    padding-right:2pc;
+}
+
+.kiri{
+    width:28%;
+    float:left;
+    margin:auto;
+    background:#fff;
+    min-height:40px;
+}
+
+.kiri img {
+    display: block;
+    margin: 0 auto;
+    float: none !important;
+}
+
+.tengah{
+    width:100%;
+    margin:auto;
+    background:#fff;
+    height:40px;
+}
+
+.kanan{
+    width:70%;
+    float:right;
+    margin:auto;
+    background:#fff;
+    min-height:40px;
+}
+
+.undecor{
+    text-decoration:none;
+}
+
+.footer{
+    width:90%;
+    margin-top:30px;
+    margin: auto;
+    height:40px;
+    line-height:40px;
+    background:blue;
+    color:#fff;
+    margin-bottom:1pc;
+    clear: both;
+}
+
+.button {
+    padding:10px 18px;
+    border-radius:4px;
+    border:2px solid blue;
+    color:white;
+    background-color:blue;
+}
